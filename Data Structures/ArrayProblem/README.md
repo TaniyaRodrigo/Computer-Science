@@ -3,6 +3,7 @@ A giant library has just been inaugurated this week. It can be modeled as a sequ
 consecutive shelves with each shelf having some number of books. No, think of the following
 two queries which can be performed on these shelves
 
+
             ● Change the number of books in one of the shelves.
             ● Obtain the number of books on the shelf having the kth rank within the range of shelves.
 
@@ -24,4 +25,5 @@ follow with each line representing a query.
 Queries can be of two types:
 
             ● 1 x k - Update the number of books in the xth shelf to k (1 <= x <= N).
-            ● 0 x y k - Find the number of books on the shelf between the shelves x and y (both inclusive) with the kth rank (1 <= x <= y <= N, 1 <= k <= y-x+1).
+            ● 0 x y k - Find the number of books on the shelf between the shelves x and y (both inclusive) with the kth rank (1 <= x <= y <= N, 1 <= k <= y-x+1). or
+
